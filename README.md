@@ -41,7 +41,9 @@ for i in range (n-2,-1,-1):
         x[i]=x[i]-a[i][j]*x[j]
     x[i]=x[i]/a [i][i]
 for i in range (n):
-    print('X%d = %0.2f'%(i,x[i]),end=' ')       
+    print('X%d = %0.2f'%(i,x[i]),end=' ')  
+    
+    
 ```
 ## Output:
 ![output](/gaussian.png)
